@@ -1,0 +1,8 @@
+
+[ Ejecución ]
+
+1. Iniciar el server (server_init)
+2. Ejecutar scripts/fuse.sh para montar FUSE en el directorio bin/tmp
+    Para una IP diferente a :localhost, se debe pasar como paramtro: --ip "192.168.x.x"  
+3. Ejecutar los comandos de prueba (ls, stat, mkdir, rmdir, remove, cat) 
+    sobre el directorio donde esta montado FUSE (bin/tmp)
